@@ -63,7 +63,7 @@ contract MobileGoToken is ERC20Interface, TokenConfig {
     }
 
     // Constructor
-    function IncentToken() {
+    function MobileGoToken() {
         owner = msg.sender;
         balances[owner] = _totalSupply;
     }
