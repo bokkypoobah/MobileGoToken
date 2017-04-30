@@ -11,6 +11,7 @@ contract TokenConfig {
     string public constant symbol = "MGO";
     string public constant name = "MobileGo";
     uint8 public constant decimals = 8;  // 8 decimal places, the same as tokens on Wave
+    // TODO: Work out the totalSupply when the MobileGo crowdsale ends
     uint256 _totalSupply = 10000000000000000; // 10,000,000
 }
 
